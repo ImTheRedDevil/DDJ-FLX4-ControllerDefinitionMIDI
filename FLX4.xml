@@ -1,6 +1,33 @@
 <device name="DDJ-FLX4" description="Pioneer DDJ-FLX4 Linux" type="midi" version="2023" decks="2" drivername="DDJ-FLX4 - DDJ-FLX4 MIDI 1">
     <init sendsysex="F000400500000405005002F7"/>
     <sysex value="F000400500000405005002F7" name="KEEPALIVE"/>
+    <!-- DECK 1 -->
+    <button deck="1" name="PLAY_PAUSE" note="11" channel="0"/>
+    <button deck="1" name="SHIFT_PLAY_PAUSE" note="14" channel="0"/>
+    <button deck="1" name="CUE" note="12" channel="0"/>
+    <button deck="1" name="SHIFT_CUE" note="72" channel="0"/>
+    <button deck="1" name="SHIFT" note="63" channel="0"/>
+    <button deck="1" name="JOG_TOUCH" note="54" channel="0"/>
+    <button deck="1" name="SHIFT_JOG_TOUCH" note="103" channel="0"/>
+    <jog deck="1" name="JOG" cc="34" zero="0x40" full="720" channel="0"/>
+    <jog deck="1" name="SHIFT_JOG" cc="41" zero="0x40" full="720" channel="0"/>
+    <jog deck="1" name="JOG" cc="33" zero="0x40" full="2880" channel="0"/>
+    <jog deck="1" name="SHIFT_JOG" cc="33" zero="0x40" full="2880" channel="0"/>
+    <button deck="1" name="LOOP_IN" note="16" channel="0"/>
+    <button deck="1" name="SHIFT_LOOP_IN" note="76" channel="0"/>
+    <button deck="1" name="LOOP_OUT" note="17" channel="0"/>
+    <button deck="1" name="SHIFT_LOOP_OUT" note="78" channel="0"/>
+    <button deck="1" name="4BEAT_LOOP" note="77" channel="0"/>
+    <button deck="1" name="4BEAT_LOOP" note="80" channel="0"/>
+    <button deck="1" name="CUE_CALL-" note="81" channel="0"/>
+    <button deck="1" name="SHIFT_CUE_CALL-" note="62" channel="0"/>
+    <button deck="1" name="CUE_CALL+" note="83" channel="0"/>
+    <button deck="1" name="SHIFT_CUE_CALL+" note="61" channel="0"/>
+    <button deck="1" name="SYNC" note="88" channel="0"/>
+    <button deck="1" name="SYNC_LONG" note="92" channel="0"/>
+    <button deck="1" name="SHIFT_SYNC" note="96" channel="0"/>
+    <slider deck="1" name="PITCH" ccmsb="0" cc="32" channel="0"/>
+
     <!-- <slider name="FADER_1" cc="28" channel="0"/>
     <slider name="FADER_2" cc="29" channel="0"/>
     <slider name="FADER_3" cc="30" channel="0"/>
