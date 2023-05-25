@@ -1,5 +1,6 @@
 <device name="DDJ-FLX4" description="Pioneer DDJ-FLX4 Linux" type="midi" version="2023" decks="2" drivername="DDJ-FLX4 - DDJ-FLX4 MIDI 1">
-    <sysex value="f000400500000405005002f7" name="KEEPALIVE"/>
+    <init sendsysex="F000400500000405005002F7"/>
+    <sysex value="F000400500000405005002F7" name="KEEPALIVE"/>
     <!-- <slider name="FADER_1" cc="28" channel="0"/>
     <slider name="FADER_2" cc="29" channel="0"/>
     <slider name="FADER_3" cc="30" channel="0"/>
