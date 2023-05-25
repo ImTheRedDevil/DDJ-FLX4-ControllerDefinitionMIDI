@@ -1,0 +1,39 @@
+<device name="DDJ-FLX4" description="Pioneer DDJ-FLX4 Linux" type="midi" version="2023" decks="2" drivername="DDJ-FLX4 - DDJ-FLX4 MIDI 1">
+    <slider name="FADER_1" cc="28" channel="0"/>
+    <slider name="FADER_2" cc="29" channel="0"/>
+    <slider name="FADER_3" cc="30" channel="0"/>
+    <slider name="FADER_4" cc="31" channel="0"/>
+    <slider name="FADER_5" cc="32" channel="0"/>
+    <slider name="FADER_6" cc="33" channel="0"/>
+    <slider name="FADER_7" cc="34" channel="0"/>
+    <slider name="FADER_8" cc="35" channel="0"/>
+    <slider name="MASTER_FADER" cc="36" channel="0"/>
+    <bar name="FADER_1_MOTOR" cc="1" channel="12"/>
+    <bar name="FADER_2_MOTOR" cc="2" channel="12"/>
+    <bar name="FADER_3_MOTOR" cc="3" channel="12"/>
+    <bar name="FADER_4_MOTOR" cc="4" channel="12"/>
+    <bar name="FADER_5_MOTOR" cc="5" channel="12"/>
+    <bar name="FADER_6_MOTOR" cc="6" channel="12"/>
+    <bar name="FADER_7_MOTOR" cc="7" channel="12"/>
+    <bar name="FADER_8_MOTOR" cc="8" channel="12"/>
+    <bar name="MASTER_FADER_MOTOR" cc="9" channel="12"/>
+    <button name="CHANNEL_1_SELECT" note="0x5F" channel="0"/>
+    <button name="CHANNEL_2_SELECT" note="0x60" channel="0"/>
+    <button name="CHANNEL_3_SELECT" note="0x61" channel="0"/>
+    <button name="CHANNEL_4_SELECT" note="0x62" channel="0"/>
+    <button name="CHANNEL_5_SELECT" note="0x63" channel="0"/>
+    <button name="CHANNEL_6_SELECT" note="0x64" channel="0"/>
+    <button name="CHANNEL_7_SELECT" note="0x65" channel="0"/>
+    <button name="CHANNEL_8_SELECT" note="0x66" channel="0"/>
+    <button name="CHANNEL_MASTER_SELECT" note="0x67" channel="0"/>
+    <!-- For some reason the LEDs start at 0x47 -->
+    <led name="LED_CHANNEL_1_SELECT" note="95" channel="0" default="CHANNEL_1_SELECT"/>
+    <led name="LED_CHANNEL_2_SELECT" note="96" channel="0" default="CHANNEL_2_SELECT"/>
+    <led name="LED_CHANNEL_3_SELECT" note="97" channel="0" default="CHANNEL_3_SELECT"/>
+    <led name="LED_CHANNEL_4_SELECT" note="98" channel="0" default="CHANNEL_4_SELECT"/>
+    <led name="LED_CHANNEL_5_SELECT" note="99" channel="0" default="CHANNEL_5_SELECT"/>
+    <led name="LED_CHANNEL_6_SELECT" note="9A" channel="0" default="CHANNEL_6_SELECT"/>
+    <led name="LED_CHANNEL_7_SELECT" note="9B" channel="0" default="CHANNEL_7_SELECT"/>
+    <led name="LED_CHANNEL_8_SELECT" note="9C" channel="0" default="CHANNEL_8_SELECT"/>
+    <led name="LED_CHANNEL_MASTER_SELECT" note="9D" channel="0" default="CHANNEL_MASTER_SELECT"/>
+</device>
