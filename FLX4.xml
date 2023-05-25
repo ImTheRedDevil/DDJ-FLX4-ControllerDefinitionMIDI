@@ -27,6 +27,15 @@
     <button deck="left" channel="0" name="SYNC_LONG" note="92"/>
     <button deck="left" channel="0" name="SHIFT_SYNC" note="96"/>
     <slider deck="left" channel="0" name="PITCH" ccmsb="0" cc="32"/>
+
+    <led deck="left" channel="0" name="LED_PLAY_PAUSE" note="11" default="PLAY_PAUSE"/>
+    <led deck="left" channel="0" name="LED_CUE" note="12" default="CUE"/>
+    <led deck="left" channel="0" name="LED_LOOP_IN" note="16"/>
+    <led deck="left" channel="0" name="SHIFT_LED_LOOP_IN" note="76"/>
+    <led deck="left" channel="0" name="LED_LOOP_OUT" note="17"/>
+    <led deck="left" channel="0" name="SHIFT_LED_LOOP_OUT" note="78"/>
+    <led deck="left" channel="0" name="LED_SYNC" note="88"/>
+
     <!-- RIGHT DECK -->
     <button deck="right" channel="1" name="PLAY_PAUSE" note="11" />
     <button deck="right" channel="1" name="SHIFT_PLAY_PAUSE" note="14"/>
@@ -53,6 +62,14 @@
     <button deck="right" channel="1" name="SYNC_LONG" note="92"/>
     <button deck="right" channel="1" name="SHIFT_SYNC" note="96"/>
     <slider deck="right" channel="1" name="PITCH" ccmsb="0" cc="32"/>
+
+    <led deck="right" channel="1" name="LED_PLAY_PAUSE" note="11" default="PLAY_PAUSE"/>
+    <led deck="right" channel="1" name="LED_CUE" note="12" default="CUE"/>
+    <led deck="right" channel="1" name="LED_LOOP_IN" note="16"/>
+    <led deck="right" channel="1" name="SHIFT_LED_LOOP_IN" note="76"/>
+    <led deck="right" channel="1" name="LED_LOOP_OUT" note="17"/>
+    <led deck="right" channel="1" name="SHIFT_LED_LOOP_OUT" note="78"/>
+    <led deck="right" channel="1" name="LED_SYNC" note="88"/>
 
     <!-- <slider name="FADER_1" cc="28" channel="0"/>
     <slider name="FADER_2" cc="29" channel="0"/>
