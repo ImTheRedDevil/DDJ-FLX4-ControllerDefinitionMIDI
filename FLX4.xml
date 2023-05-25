@@ -1,5 +1,6 @@
 <device name="DDJ-FLX4" description="Pioneer DDJ-FLX4 Linux" type="midi" version="2023" decks="2" drivername="DDJ-FLX4 - DDJ-FLX4 MIDI 1">
-    <slider name="FADER_1" cc="28" channel="0"/>
+    <sysex value="f000400500000405005002f7" name="KEEPALIVE"/>
+    <!-- <slider name="FADER_1" cc="28" channel="0"/>
     <slider name="FADER_2" cc="29" channel="0"/>
     <slider name="FADER_3" cc="30" channel="0"/>
     <slider name="FADER_4" cc="31" channel="0"/>
@@ -25,9 +26,9 @@
     <button name="CHANNEL_6_SELECT" note="0x64" channel="0"/>
     <button name="CHANNEL_7_SELECT" note="0x65" channel="0"/>
     <button name="CHANNEL_8_SELECT" note="0x66" channel="0"/>
-    <button name="CHANNEL_MASTER_SELECT" note="0x67" channel="0"/>
+    <button name="CHANNEL_MASTER_SELECT" note="0x67" channel="0"/> -->
     <!-- For some reason the LEDs start at 0x47 -->
-    <led name="LED_CHANNEL_1_SELECT" note="95" channel="0" default="CHANNEL_1_SELECT"/>
+    <!-- <led name="LED_CHANNEL_1_SELECT" note="95" channel="0" default="CHANNEL_1_SELECT"/>
     <led name="LED_CHANNEL_2_SELECT" note="96" channel="0" default="CHANNEL_2_SELECT"/>
     <led name="LED_CHANNEL_3_SELECT" note="97" channel="0" default="CHANNEL_3_SELECT"/>
     <led name="LED_CHANNEL_4_SELECT" note="98" channel="0" default="CHANNEL_4_SELECT"/>
@@ -35,5 +36,5 @@
     <led name="LED_CHANNEL_6_SELECT" note="9A" channel="0" default="CHANNEL_6_SELECT"/>
     <led name="LED_CHANNEL_7_SELECT" note="9B" channel="0" default="CHANNEL_7_SELECT"/>
     <led name="LED_CHANNEL_8_SELECT" note="9C" channel="0" default="CHANNEL_8_SELECT"/>
-    <led name="LED_CHANNEL_MASTER_SELECT" note="9D" channel="0" default="CHANNEL_MASTER_SELECT"/>
+    <led name="LED_CHANNEL_MASTER_SELECT" note="9D" channel="0" default="CHANNEL_MASTER_SELECT"/> -->
 </device>
