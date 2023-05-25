@@ -1,0 +1,2 @@
+# Pioneer DDJ-FLX4 Binding for VirtualDJ on Linux
+The required files to get a Pioneer DDJ-FLX4 working with VirtualDJ on Linux recreated from scratch, as the built in device definition sadly doesn't recognize the controller correctly and there doesn't seem to be a way to extract existing bindings from the program.
