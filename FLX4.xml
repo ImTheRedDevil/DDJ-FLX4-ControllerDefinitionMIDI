@@ -84,7 +84,7 @@
     <led deck="left" channel="15" name="LED_LOADED" note="0"/>
     <led deck="right" channel="15" name="LED_LOADED" note="1"/>
 
-    <!-- LEFT PADS -->
+    <!-- LEFT PADS SELECTORS -->
     <button deck="left" channel="0" name="PAD_MODE_HOTCUE" note="27"/>
     <button deck="left" channel="0" name="PAD_MODE_KEYBOARD" note="105"/>
     <button deck="left" channel="0" name="PAD_MODE_PADFX1" note="30"/>
@@ -103,8 +103,156 @@
     <led deck="left" channel="0" name="LED_PAD_MODE_SAMPLER" note="34" default="PAD_MODE_SAMPLER"/>
     <led deck="left" channel="0" name="LED_PAD_MODE_KEYSHIFT" note="111" default="PAD_MODE_KEYSHIFT"/>
 
+    <!-- LEFT PAD 1 -->
+    <button deck="left" channel="7" name="HOTCUE_PAD1" note="0"/>
+    <button deck="left" channel="7" name="PADFX1_PAD1" note="16"/>
+    <button deck="left" channel="7" name="BEATJUMP_PAD1" note="32"/>
+    <button deck="left" channel="7" name="SAMPLER_PAD1" note="48"/>
+    <button deck="left" channel="7" name="KEYBOARD_PAD1" note="64"/>
+    <button deck="left" channel="7" name="PADFX2_PAD1" note="80"/>
+    <button deck="left" channel="7" name="BEATLOOP_PAD1" note="96"/>
+    <button deck="left" channel="7" name="KEYSHIFT_PAD1" note="112"/>
 
-    <!-- RIGHT PADS -->
+    <button deck="left" channel="8" name="SHIFT_HOTCUE_PAD1" note="0"/>
+    <button deck="left" channel="8" name="SHIFT_PADFX1_PAD1" note="16"/>
+    <button deck="left" channel="8" name="SHIFT_BEATJUMP_PAD1" note="32"/>
+    <button deck="left" channel="8" name="SHIFT_SAMPLER_PAD1" note="48"/>
+    <button deck="left" channel="8" name="SHIFT_KEYBOARD_PAD1" note="64"/>
+    <button deck="left" channel="8" name="SHIFT_PADFX2_PAD1" note="80"/>
+    <button deck="left" channel="8" name="SHIFT_BEATLOOP_PAD1" note="96"/>
+    <button deck="left" channel="8" name="SHIFT_KEYSHIFT_PAD1" note="112"/>
+
+    <led deck="left" channel="7" default="HOTCUE_PAD1" name="HOTCUE_PAD1" note="0"/>
+    <led deck="left" channel="7" default="PADFX1_PAD1" name="PADFX1_PAD1" note="16"/>
+    <led deck="left" channel="7" default="BEATJUMP_PAD1" name="BEATJUMP_PAD1" note="32"/>
+    <led deck="left" channel="7" default="SAMPLER_PAD1" name="SAMPLER_PAD1" note="48"/>
+    <led deck="left" channel="7" default="KEYBOARD_PAD1" name="KEYBOARD_PAD1" note="64"/>
+    <led deck="left" channel="7" default="PADFX2_PAD1" name="PADFX2_PAD1" note="80"/>
+    <led deck="left" channel="7" default="BEATLOOP_PAD1" name="BEATLOOP_PAD1" note="96"/>
+    <led deck="left" channel="7" default="KEYSHIFT_PAD1" name="KEYSHIFT_PAD1" note="112"/>
+
+    <led deck="left" channel="8" default="SHIFT_HOTCUE_PAD1" name="SHIFT_HOTCUE_PAD1" note="0"/>
+    <led deck="left" channel="8" default="SHIFT_PADFX1_PAD1" name="SHIFT_PADFX1_PAD1" note="16"/>
+    <led deck="left" channel="8" default="SHIFT_BEATJUMP_PAD1" name="SHIFT_BEATJUMP_PAD1" note="32"/>
+    <led deck="left" channel="8" default="SHIFT_SAMPLER_PAD1" name="SHIFT_SAMPLER_PAD1" note="48"/>
+    <led deck="left" channel="8" default="SHIFT_KEYBOARD_PAD1" name="SHIFT_KEYBOARD_PAD1" note="64"/>
+    <led deck="left" channel="8" default="SHIFT_PADFX2_PAD1" name="SHIFT_PADFX2_PAD1" note="80"/>
+    <led deck="left" channel="8" default="SHIFT_BEATLOOP_PAD1" name="SHIFT_BEATLOOP_PAD1" note="96"/>
+    <led deck="left" channel="8" default="SHIFT_KEYSHIFT_PAD1" name="SHIFT_KEYSHIFT_PAD1" note="112"/>
+
+    <!-- LEFT PAD 2 -->
+    <button deck="left" channel="7" name="HOTCUE_PAD2" note="1"/>
+    <button deck="left" channel="7" name="PADFX1_PAD2" note="17"/>
+    <button deck="left" channel="7" name="BEATJUMP_PAD2" note="33"/>
+    <button deck="left" channel="7" name="SAMPLER_PAD2" note="49"/>
+    <button deck="left" channel="7" name="KEYBOARD_PAD2" note="65"/>
+    <button deck="left" channel="7" name="PADFX2_PAD2" note="81"/>
+    <button deck="left" channel="7" name="BEATLOOP_PAD2" note="97"/>
+    <button deck="left" channel="7" name="KEYSHIFT_PAD2" note="113"/>
+
+    <button deck="left" channel="8" name="SHIFT_HOTCUE_PAD2" note="1"/>
+    <button deck="left" channel="8" name="SHIFT_PADFX1_PAD2" note="17"/>
+    <button deck="left" channel="8" name="SHIFT_BEATJUMP_PAD2" note="33"/>
+    <button deck="left" channel="8" name="SHIFT_SAMPLER_PAD2" note="49"/>
+    <button deck="left" channel="8" name="SHIFT_KEYBOARD_PAD2" note="65"/>
+    <button deck="left" channel="8" name="SHIFT_PADFX2_PAD2" note="81"/>
+    <button deck="left" channel="8" name="SHIFT_BEATLOOP_PAD2" note="97"/>
+    <button deck="left" channel="8" name="SHIFT_KEYSHIFT_PAD2" note="113"/>
+
+    <led deck="left" channel="7" default="HOTCUE_PAD2" name="HOTCUE_PAD2" note="1"/>
+    <led deck="left" channel="7" default="PADFX1_PAD2" name="PADFX1_PAD2" note="17"/>
+    <led deck="left" channel="7" default="BEATJUMP_PAD2" name="BEATJUMP_PAD2" note="33"/>
+    <led deck="left" channel="7" default="SAMPLER_PAD2" name="SAMPLER_PAD2" note="49"/>
+    <led deck="left" channel="7" default="KEYBOARD_PAD2" name="KEYBOARD_PAD2" note="65"/>
+    <led deck="left" channel="7" default="PADFX2_PAD2" name="PADFX2_PAD2" note="81"/>
+    <led deck="left" channel="7" default="BEATLOOP_PAD2" name="BEATLOOP_PAD2" note="97"/>
+    <led deck="left" channel="7" default="KEYSHIFT_PAD2" name="KEYSHIFT_PAD2" note="113"/>
+
+    <led deck="left" channel="8" default="SHIFT_HOTCUE_PAD2" name="SHIFT_HOTCUE_PAD2" note="1"/>
+    <led deck="left" channel="8" default="SHIFT_PADFX1_PAD2" name="SHIFT_PADFX1_PAD2" note="17"/>
+    <led deck="left" channel="8" default="SHIFT_BEATJUMP_PAD2" name="SHIFT_BEATJUMP_PAD2" note="33"/>
+    <led deck="left" channel="8" default="SHIFT_SAMPLER_PAD2" name="SHIFT_SAMPLER_PAD2" note="49"/>
+    <led deck="left" channel="8" default="SHIFT_KEYBOARD_PAD2" name="SHIFT_KEYBOARD_PAD2" note="65"/>
+    <led deck="left" channel="8" default="SHIFT_PADFX2_PAD2" name="SHIFT_PADFX2_PAD2" note="81"/>
+    <led deck="left" channel="8" default="SHIFT_BEATLOOP_PAD2" name="SHIFT_BEATLOOP_PAD2" note="97"/>
+    <led deck="left" channel="8" default="SHIFT_KEYSHIFT_PAD2" name="SHIFT_KEYSHIFT_PAD2" note="113"/>
+
+    <!-- LEFT PAD 3 -->
+    <button deck="left" channel="7" name="HOTCUE_PAD3" note="2"/>
+    <button deck="left" channel="7" name="PADFX1_PAD3" note="18"/>
+    <button deck="left" channel="7" name="BEATJUMP_PAD3" note="34"/>
+    <button deck="left" channel="7" name="SAMPLER_PAD3" note="50"/>
+    <button deck="left" channel="7" name="KEYBOARD_PAD3" note="66"/>
+    <button deck="left" channel="7" name="PADFX2_PAD3" note="82"/>
+    <button deck="left" channel="7" name="BEATLOOP_PAD3" note="98"/>
+    <button deck="left" channel="7" name="KEYSHIFT_PAD3" note="114"/>
+
+    <button deck="left" channel="8" name="SHIFT_HOTCUE_PAD3" note="2"/>
+    <button deck="left" channel="8" name="SHIFT_PADFX1_PAD3" note="18"/>
+    <button deck="left" channel="8" name="SHIFT_BEATJUMP_PAD3" note="34"/>
+    <button deck="left" channel="8" name="SHIFT_SAMPLER_PAD3" note="50"/>
+    <button deck="left" channel="8" name="SHIFT_KEYBOARD_PAD3" note="66"/>
+    <button deck="left" channel="8" name="SHIFT_PADFX2_PAD3" note="82"/>
+    <button deck="left" channel="8" name="SHIFT_BEATLOOP_PAD3" note="98"/>
+    <button deck="left" channel="8" name="SHIFT_KEYSHIFT_PAD3" note="114"/>
+
+    <led deck="left" channel="7" default="HOTCUE_PAD3" name="HOTCUE_PAD3" note="2"/>
+    <led deck="left" channel="7" default="PADFX1_PAD3" name="PADFX1_PAD3" note="18"/>
+    <led deck="left" channel="7" default="BEATJUMP_PAD3" name="BEATJUMP_PAD3" note="34"/>
+    <led deck="left" channel="7" default="SAMPLER_PAD3" name="SAMPLER_PAD3" note="50"/>
+    <led deck="left" channel="7" default="KEYBOARD_PAD3" name="KEYBOARD_PAD3" note="66"/>
+    <led deck="left" channel="7" default="PADFX2_PAD3" name="PADFX2_PAD3" note="82"/>
+    <led deck="left" channel="7" default="BEATLOOP_PAD3" name="BEATLOOP_PAD3" note="98"/>
+    <led deck="left" channel="7" default="KEYSHIFT_PAD3" name="KEYSHIFT_PAD3" note="114"/>
+
+    <led deck="left" channel="8" default="SHIFT_HOTCUE_PAD3" name="SHIFT_HOTCUE_PAD3" note="2"/>
+    <led deck="left" channel="8" default="SHIFT_PADFX1_PAD3" name="SHIFT_PADFX1_PAD3" note="18"/>
+    <led deck="left" channel="8" default="SHIFT_BEATJUMP_PAD3" name="SHIFT_BEATJUMP_PAD3" note="34"/>
+    <led deck="left" channel="8" default="SHIFT_SAMPLER_PAD3" name="SHIFT_SAMPLER_PAD3" note="50"/>
+    <led deck="left" channel="8" default="SHIFT_KEYBOARD_PAD3" name="SHIFT_KEYBOARD_PAD3" note="66"/>
+    <led deck="left" channel="8" default="SHIFT_PADFX2_PAD3" name="SHIFT_PADFX2_PAD3" note="82"/>
+    <led deck="left" channel="8" default="SHIFT_BEATLOOP_PAD3" name="SHIFT_BEATLOOP_PAD3" note="98"/>
+    <led deck="left" channel="8" default="SHIFT_KEYSHIFT_PAD3" name="SHIFT_KEYSHIFT_PAD3" note="114"/>
+
+    <!-- LEFT PAD 4 -->
+    <button deck="left" channel="7" name="HOTCUE_PAD4" note="3"/>
+    <button deck="left" channel="7" name="PADFX1_PAD4" note="19"/>
+    <button deck="left" channel="7" name="BEATJUMP_PAD4" note="35"/>
+    <button deck="left" channel="7" name="SAMPLER_PAD4" note="51"/>
+    <button deck="left" channel="7" name="KEYBOARD_PAD4" note="67"/>
+    <button deck="left" channel="7" name="PADFX2_PAD4" note="83"/>
+    <button deck="left" channel="7" name="BEATLOOP_PAD4" note="99"/>
+    <button deck="left" channel="7" name="KEYSHIFT_PAD4" note="115"/>
+
+    <button deck="left" channel="8" name="SHIFT_HOTCUE_PAD4" note="3"/>
+    <button deck="left" channel="8" name="SHIFT_PADFX1_PAD4" note="19"/>
+    <button deck="left" channel="8" name="SHIFT_BEATJUMP_PAD4" note="35"/>
+    <button deck="left" channel="8" name="SHIFT_SAMPLER_PAD4" note="51"/>
+    <button deck="left" channel="8" name="SHIFT_KEYBOARD_PAD4" note="67"/>
+    <button deck="left" channel="8" name="SHIFT_PADFX2_PAD4" note="83"/>
+    <button deck="left" channel="8" name="SHIFT_BEATLOOP_PAD4" note="99"/>
+    <button deck="left" channel="8" name="SHIFT_KEYSHIFT_PAD4" note="115"/>
+
+    <led deck="left" channel="7" default="HOTCUE_PAD4" name="HOTCUE_PAD4" note="3"/>
+    <led deck="left" channel="7" default="PADFX1_PAD4" name="PADFX1_PAD4" note="19"/>
+    <led deck="left" channel="7" default="BEATJUMP_PAD4" name="BEATJUMP_PAD4" note="35"/>
+    <led deck="left" channel="7" default="SAMPLER_PAD4" name="SAMPLER_PAD4" note="51"/>
+    <led deck="left" channel="7" default="KEYBOARD_PAD4" name="KEYBOARD_PAD4" note="67"/>
+    <led deck="left" channel="7" default="PADFX2_PAD4" name="PADFX2_PAD4" note="83"/>
+    <led deck="left" channel="7" default="BEATLOOP_PAD4" name="BEATLOOP_PAD4" note="99"/>
+    <led deck="left" channel="7" default="KEYSHIFT_PAD4" name="KEYSHIFT_PAD4" note="115"/>
+
+    <led deck="left" channel="8" default="SHIFT_HOTCUE_PAD4" name="SHIFT_HOTCUE_PAD4" note="3"/>
+    <led deck="left" channel="8" default="SHIFT_PADFX1_PAD4" name="SHIFT_PADFX1_PAD4" note="19"/>
+    <led deck="left" channel="8" default="SHIFT_BEATJUMP_PAD4" name="SHIFT_BEATJUMP_PAD4" note="35"/>
+    <led deck="left" channel="8" default="SHIFT_SAMPLER_PAD4" name="SHIFT_SAMPLER_PAD4" note="51"/>
+    <led deck="left" channel="8" default="SHIFT_KEYBOARD_PAD4" name="SHIFT_KEYBOARD_PAD4" note="67"/>
+    <led deck="left" channel="8" default="SHIFT_PADFX2_PAD4" name="SHIFT_PADFX2_PAD4" note="83"/>
+    <led deck="left" channel="8" default="SHIFT_BEATLOOP_PAD4" name="SHIFT_BEATLOOP_PAD4" note="99"/>
+    <led deck="left" channel="8" default="SHIFT_KEYSHIFT_PAD4" name="SHIFT_KEYSHIFT_PAD4" note="115"/>
+
+
+    <!-- RIGHT PADS SELECTORS -->
     <button deck="right" channel="1" name="PAD_MODE_HOTCUE" note="27"/>
     <button deck="right" channel="1" name="PAD_MODE_KEYBOARD" note="105"/>
     <button deck="right" channel="1" name="PAD_MODE_PADFX1" note="30"/>
