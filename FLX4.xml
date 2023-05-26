@@ -750,6 +750,22 @@
     <button name="SHIFT_SMART_FADER" note="9" channel="6"/>
     <led name="LED_SMART_FADER" note="1" channel="6"/>
     <led name="LED_SMART_FADER_FLASH" note="1" channel="6"/>
-    <bar name="VU_METER" cc="2" channel="0" min="0x26" max="0x7F" fill="yes" deck="left"/>
-    <bar name="VU_METER" cc="2" channel="1" min="0x26" max="0x7F" fill="yes" deck="right"/>
+    <bar name="VU_METER" cc="2" channel="0" min="0x20" max="0x7F" fill="yes" deck="left"/>
+    <bar name="VU_METER" cc="2" channel="1" min="0x20" max="0x7F" fill="yes" deck="right"/>
+
+    <!-- EFFECTS -->
+    <button name="FX_ASSIGN" note="16" channel="4" deck="left"/>
+    <button name="FX_ASSIGN" note="17" channel="5" deck="right"/>
+    <button name="FX_SELECT" note="99" channel="4"/>
+    <button name="SHIFT_FX_SELECT" note="100" channel="4"/>
+    <button name="FX_BEATS-" note="74" channel="4"/>
+    <button name="SHIFT_FX_BEATS-" note="102" channel="4"/>
+    <button name="FX_BEATS+" note="75" channel="4"/>
+    <button name="SHIFT_FX_BEATS+" note="107" channel="4"/>
+    <slider name="FX_LEVEL" cc="34" ccmsb="2" channel="5"/>
+    <button name="FX_ON" note="71" channel="4" deck="left"/>
+    <button name="FX_ON" note="71" channel="5" deck="right"/>
+    <button name="SHIFT_FX_ON" note="67" channel="4" deck="left"/>
+    <button name="SHIFT_FX_ON" note="67" channel="5" deck="right"/>
+    <led name="LED_FX_ON" note="71" channel="4" default="FX_ON"/>
 </device>
