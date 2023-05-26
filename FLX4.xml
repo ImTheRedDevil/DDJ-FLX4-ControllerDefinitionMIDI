@@ -84,6 +84,45 @@
     <led deck="left" channel="15" name="LED_LOADED" note="0"/>
     <led deck="right" channel="15" name="LED_LOADED" note="1"/>
 
+    <!-- LEFT PADS -->
+    <button deck="left" channel="0" name="PAD_MODE_HOTCUE" note="27"/>
+    <button deck="left" channel="0" name="PAD_MODE_KEYBOARD" note="105"/>
+    <button deck="left" channel="0" name="PAD_MODE_PADFX1" note="30"/>
+    <button deck="left" channel="0" name="PAD_MODE_PADFX2" note="107"/>
+    <button deck="left" channel="0" name="PAD_MODE_BEATJUMP" note="32"/>
+    <button deck="left" channel="0" name="PAD_MODE_BEATLOOP" note="109"/>
+    <button deck="left" channel="0" name="PAD_MODE_SAMPLER" note="34"/>
+    <button deck="left" channel="0" name="PAD_MODE_KEYSHIFT" note="111"/>
+
+    <led deck="left" channel="0" name="LED_PAD_MODE_HOTCUE" note="27" default="PAD_MODE_HOTCUE"/>
+    <led deck="left" channel="0" name="LED_PAD_MODE_KEYBOARD" note="105" default="PAD_MODE_KEYBOARD"/>
+    <led deck="left" channel="0" name="LED_PAD_MODE_PADFX1" note="30" default="PAD_MODE_PADFX1"/>
+    <led deck="left" channel="0" name="LED_PAD_MODE_PADFX2" note="107" default="PAD_MODE_PADFX2"/>
+    <led deck="left" channel="0" name="LED_PAD_MODE_BEATJUMP" note="32" default="PAD_MODE_BEATJUMP"/>
+    <led deck="left" channel="0" name="LED_PAD_MODE_BEATLOOP" note="109" default="PAD_MODE_BEATLOOP"/>
+    <led deck="left" channel="0" name="LED_PAD_MODE_SAMPLER" note="34" default="PAD_MODE_SAMPLER"/>
+    <led deck="left" channel="0" name="LED_PAD_MODE_KEYSHIFT" note="111" default="PAD_MODE_KEYSHIFT"/>
+
+
+    <!-- RIGHT PADS -->
+    <button deck="right" channel="1" name="PAD_MODE_HOTCUE" note="27"/>
+    <button deck="right" channel="1" name="PAD_MODE_KEYBOARD" note="105"/>
+    <button deck="right" channel="1" name="PAD_MODE_PADFX1" note="30"/>
+    <button deck="right" channel="1" name="PAD_MODE_PADFX2" note="107"/>
+    <button deck="right" channel="1" name="PAD_MODE_BEATJUMP" note="32"/>
+    <button deck="right" channel="1" name="PAD_MODE_BEATLOOP" note="109"/>
+    <button deck="right" channel="1" name="PAD_MODE_SAMPLER" note="34"/>
+    <button deck="right" channel="1" name="PAD_MODE_KEYSHIFT" note="111"/>
+
+    <led deck="right" channel="1" name="LED_PAD_MODE_HOTCUE" note="27" default="PAD_MODE_HOTCUE"/>
+    <led deck="right" channel="1" name="LED_PAD_MODE_KEYBOARD" note="105" default="PAD_MODE_KEYBOARD"/>
+    <led deck="right" channel="1" name="LED_PAD_MODE_PADFX1" note="30" default="PAD_MODE_PADFX1"/>
+    <led deck="right" channel="1" name="LED_PAD_MODE_PADFX2" note="107" default="PAD_MODE_PADFX2"/>
+    <led deck="right" channel="1" name="LED_PAD_MODE_BEATJUMP" note="32" default="PAD_MODE_BEATJUMP"/>
+    <led deck="right" channel="1" name="LED_PAD_MODE_BEATLOOP" note="109" default="PAD_MODE_BEATLOOP"/>
+    <led deck="right" channel="1" name="LED_PAD_MODE_SAMPLER" note="34" default="PAD_MODE_SAMPLER"/>
+    <led deck="right" channel="1" name="LED_PAD_MODE_KEYSHIFT" note="111" default="PAD_MODE_KEYSHIFT"/>
+
     <!-- MIXER -->
     <slider name="MASTER_VOL" cc="40" ccmsb="8" channel="6"/>
     <button name="PFL_MASTER" note="99" channel="6"/>
