@@ -71,6 +71,19 @@
     <led deck="right" channel="1" name="SHIFT_LED_LOOP_OUT" note="78"/>
     <led deck="right" channel="1" name="LED_SYNC" note="88"/>
 
+    <!-- BROWSE -->
+    <encoder channel="6" cc="64" name="BROWSE_ENC" zero="0" />
+    <encoder channel="6" cc="100" name="SHIFT_BROWSE_ENC" zero="0" />
+    <button channel="6" name="BROWSE_ENC_PUSH" note="65"/>
+    <button channel="6" name="SHIFT_BROWSE_ENC_PUSH" note="66"/>
+    <button deck="left" channel="6" name="LOAD" note="70"/>
+    <button deck="left" channel="6" name="SHIFT_LOAD" note="104"/>
+    <button deck="right" channel="6" name="LOAD" note="71"/>
+    <button deck="right" channel="6" name="SHIFT_LOAD" note="122"/>
+
+    <led deck="left" channel="15" name="LED_LOADED" note="0"/>
+    <led deck="right" channel="15" name="LED_LOADED" note="1"/>
+
     <!-- <slider name="FADER_1" cc="28" channel="0"/>
     <slider name="FADER_2" cc="29" channel="0"/>
     <slider name="FADER_3" cc="30" channel="0"/>
