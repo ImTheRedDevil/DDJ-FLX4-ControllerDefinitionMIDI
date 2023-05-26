@@ -99,6 +99,10 @@
     <slider name="EQ_LOW" cc="47" ccmsb="15" channel="1" deck="right"/>
     <slider name="FILTER" cc="55" ccmsb="23" channel="6" deck="left"/>
     <slider name="FILTER" cc="56" ccmsb="24" channel="6" deck="right"/>
+    <button name="PFL" note="84" channel="0" deck="left"/>
+    <led name="LED_PFL" note="84" channel="0" deck="left" default="PFL"/>
+    <button name="PFL" note="84" channel="1" deck="right"/>
+    <led name="LED_PFL" note="84" channel="1" deck="right" default="PFL"/>
     <slider name="VOLUME" cc="51" ccmsb="19" channel="0" deck="left"/>
     <slider name="VOLUME" cc="51" ccmsb="19" channel="1" deck="right"/>
     <button name="SHIFT_FADER_START_PLAY" note="102" channel="0" deck="left"/>
