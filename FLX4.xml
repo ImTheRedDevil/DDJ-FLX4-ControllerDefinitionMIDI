@@ -121,4 +121,37 @@
     <led name="LED_CHANNEL_7_SELECT" note="9B" channel="0" default="CHANNEL_7_SELECT"/>
     <led name="LED_CHANNEL_8_SELECT" note="9C" channel="0" default="CHANNEL_8_SELECT"/>
     <led name="LED_CHANNEL_MASTER_SELECT" note="9D" channel="0" default="CHANNEL_MASTER_SELECT"/> -->
+    <!-- Mixer section -->
+    <slider name="MASTER_VOL" cc="40" ccmsb="8" channel="6"/>
+    <button name="PFL_MASTER" note="99" channel="6"/>
+    <button name="SHIFT_PFL_MASTER" note="120" channel="6"/>
+    <led name="LED_PFL_MASTER" note="99" channel="6" default="PFL_MASTER"/>
+    <slider name="GAIN" cc="36" ccmsb="4" channel="0" deck="left"/>
+    <slider name="GAIN" cc="36" ccmsb="4" channel="1" deck="right"/>
+    <slider name="EQ_HIGH" cc="39" ccmsb="7" channel="0" deck="left"/>
+    <slider name="EQ_HIGH" cc="39" ccmsb="7" channel="1" deck="right"/>
+    <slider name="EQ_MID" cc="43" ccmsb="11" channel="0" deck="left"/>
+    <slider name="EQ_MID" cc="43" ccmsb="11" channel="1" deck="right"/>
+    <slider name="EQ_LOW" cc="47" ccmsb="15" channel="0" deck="left"/>
+    <slider name="EQ_LOW" cc="47" ccmsb="15" channel="1" deck="right"/>
+    <slider name="FILTER" cc="55" ccmsb="23" channel="6" deck="left"/>
+    <slider name="FILTER" cc="56" ccmsb="24" channel="6" deck="right"/>
+    <slider name="VOLUME" cc="51" ccmsb="19" channel="0" deck="left"/>
+    <slider name="VOLUME" cc="51" ccmsb="19" channel="1" deck="right"/>
+    <button name="SHIFT_FADER_START_PLAY" note="102" channel="0" deck="left"/>
+    <button name="SHIFT_FADER_START_PLAY" note="102" channel="1" deck="right"/>
+    <button name="SHIFT_FADER_START_CUE" note="82" channel="0" deck="left"/>
+    <button name="SHIFT_FADER_START_CUE" note="82" channel="1" deck="right"/>
+    <slider name="CROSSFADER" cc="63" ccmsb="31" channel="6"/>
+    <button name="SMART_COLOR" note="0" channel="6"/>
+    <button name="SHIFT_SMART_COLOR" note="8" channel="6"/>
+    <led name="LED_SMART_COLOR" note="0" channel="6" default="SMART_COLOR"/>
+    <slider name="HEADPHONES_MIX" cc="44" ccmsb="12" channel="6"/>
+    <slider name="HEADPHONES_VOL" cc="45" ccmsb="13" channel="6"/>
+    <button name="SMART_FADER" note="1" channel="6"/>
+    <button name="SHIFT_SMART_FADER" note="9" channel="6"/>
+    <led name="LED_SMART_FADER" note="1" channel="6"/>
+    <led name="LED_SMART_FADER_FLASH" note="1" channel="6"/>
+    <bar name="VU_METER" cc="2" channel="0" min="0x26" max="0x7F" fill="yes" deck="left"/>
+    <bar name="VU_METER" cc="2" channel="1" min="0x26" max="0x7F" fill="yes" deck="right"/>
 </device>
