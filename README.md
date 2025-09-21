@@ -4,6 +4,9 @@ This repository contains the required files to get a Pioneer DDJ-FLX4 working wi
 The files were recreated from scratch, as the built in device definition doesn't recognize the controller correctly due to Wine limitations and there doesn't seem to be a way to extract existing bindings from the program.
 Wine seems to only support MIDI through ALSA, so any advanced audio routing one would expect from JACK or Pipewire is unavailable.
 
+⚠️ **This binding is not compatible with the FLX4 only VDJ licence!**
+You will either need to be in free trial or have a licence with no hardware device restrictions.
+
 ## Setup
 The process to get up and running is rather straightforward:
 
